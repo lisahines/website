@@ -1,0 +1,55 @@
+
+:root {
+  --red-color: #d35f5f;
+  --dark-blue-color: #28464B;
+  --purple-color: #22031F;
+  --blue-color: #d8f6fd;
+}
+.title {
+  text-align: left;
+  color: var(--red-color);
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+}
+
+.sub-title {
+  color: var(--dark-blue-color);
+  font-family: 'Lato', sans-serif;
+}
+
+.body {
+  color: var(--purple-color);
+  font-family: var(--font-fams);
+  text-align: justify;
+}
+.info-box {
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+.plant-bg {
+  background-image: url("http://lisahines.ca/bg-plant");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.square-img {
+  width: 5em;
+  float:left;
+  
+}
+.round-img{
+  height: 25em;
+  float:left;
+  
+  border-width: 15px;
+  border-color: blue-color;
+}
+
+
+a {
+  color: var(--red-color);
+  font-family: var(--font-fams);
+}
+
